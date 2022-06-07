@@ -1,0 +1,11 @@
+[33mcommit 95cafc7b8ab1dbde0a5ad5f5c029958c8ad2aff1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: MiguelAngel31416 <masiestocalvo@gmail.com>
+Date:   Mon Jun 6 16:56:03 2022 +0200
+
+    01 version markdown previewer
+
+[33mcommit 512a6bb9f1084cd8cbd845c49a4b626e54edb475[m
+Author: MiguelAngel31416 <masiestocalvo@gmail.com>
+Date:   Thu Jun 2 12:48:23 2022 +0200
+
+    Initialize project using Create React App

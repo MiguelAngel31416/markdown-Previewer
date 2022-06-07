@@ -1,0 +1,98 @@
+@media (min-width: 900px) {
+  #box-editor{
+    width: 500px;
+    #editor{
+      width: 98%;
+    }
+  }
+
+  #box-preview {
+    width: 800px;
+  }
+}
+
+
+
+
+
+
+.App {
+  background-color: #83b3b3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+  #box-editor{
+    width: 50%;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 5px #7e8d8c ;
+
+    #header-editor{
+      width: 99%;
+      background-color:  #55999a;
+      border: 1px solid black;
+      padding: 7px 0px 7px 7px;
+      font-weight: 700;
+    }
+
+    #editor{
+      width: 99.5%;
+      border: 1px solid black;
+      resize: vertical;
+      background-color: #c3dada;
+    }
+
+  }
+
+      
+  #box-preview {
+    width: 80%;
+    background-color: #c3dada;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 5px #7e8d8c ;
+    
+    #header-preview {
+      border: 1px solid black;
+      background-color: #55999a;
+      padding: 7px;
+      font-weight: 700;
+      
+    }
+
+    #preview {
+      padding: 0px 30px 30px 30px;
+      border: 1px solid black;
+      object-fit: contain;
+    }
+    
+    h1{
+      border-bottom: 4px solid black;
+      border-left: 4px solid black;
+      padding-left: 8px;
+    }
+
+    h2{
+      border-bottom:2px solid black;
+      padding-left: 8px;
+    }
+
+    blockquote {
+      border-left: 3px solid black;
+      padding-left: 3px;
+    }
+
+    code {
+      background-color: white;
+      display: block;
+
+    }
+
+    img {
+      box-shadow: 2px 2px 7px 5px #7e8d8c ;
+    }
+  }
+}
+
